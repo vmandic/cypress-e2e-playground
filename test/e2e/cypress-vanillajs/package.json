@@ -1,0 +1,21 @@
+{
+    "name": "cypress-e2e-playground",
+    "version": "1.0.0",
+    "description": "cypress e2e testing playground",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cy:open": "cypress open"
+    },
+    "keywords": [
+        "e2e",
+        "testing"
+    ],
+    "author": "Vedran Mandić",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^3.3.2",
+        "eslint": "^6.0.1",
+        "eslint-plugin-cypress": "^2.2.1"
+    }
+}

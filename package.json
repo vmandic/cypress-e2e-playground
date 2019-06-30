@@ -4,7 +4,7 @@
   "description": "cypress e2e testing playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run": "cd ./test/e2e/cypress-vanillajs && npx cypress run"
   },
   "keywords": [
     "e2e",
@@ -13,6 +13,7 @@
   "author": "Vedran Mandić",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.3.2"
+    "eslint": "^6.0.1",
+    "eslint-plugin-cypress": "^2.2.1"
   }
 }
